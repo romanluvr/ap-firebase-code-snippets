@@ -8,4 +8,4 @@ async subscribeToInteractiveSessionChanges({ rootGetters, dispatch, commit }) {
     return () => {
         votedIssueIdChangeOff();
     }
-},
+}
