@@ -1,0 +1,19 @@
+{
+    "users":{
+      "$userId":{
+        privateSessions:{
+          "$privateSessionId": true
+        }
+      }
+    },
+    "sessions": {
+      ".indexOn": ["access"]
+      "$sessionId": {
+        "access": "private"
+        "participants": {
+          "$userId": {}
+        }
+      }
+    }
+}
+

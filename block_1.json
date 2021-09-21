@@ -1,0 +1,12 @@
+{
+    "sessions": {
+      ".indexOn": ["access"]
+      "$sessionId": {
+        "access": "private"
+        "participants": {
+          "$userId": {}
+        }
+      }
+    }
+}
+
