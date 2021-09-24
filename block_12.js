@@ -1,4 +1,3 @@
-:i
 async mounted() {
     try {
         this.interactiveSessionUnsubscribe = await this.subscribeToInteractiveSessionChanges();
